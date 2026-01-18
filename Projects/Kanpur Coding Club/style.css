@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #0f172a;
+  color: #f9fafb;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 18px;
+  background: #22c55e;
+  color: #0f172a;
+  text-decoration: none;
+  border-radius: 999px;
+  font-weight: bold;
+}
+
+.features, .join {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+.features ul {
+  padding-left: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #111827;
+  color: #e5e7eb;
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 60px 15px;
+  }
+}

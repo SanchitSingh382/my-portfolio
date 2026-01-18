@@ -1,0 +1,101 @@
+body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background-color: #f4f4f9;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 50px;
+        min-height: 100vh;
+        margin: 0;
+}
+.container {
+        background: #ffffff;
+        padding: 25px 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px #0000001a;
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+}
+h1 {
+ color: #333;
+ margin-bottom: 20px;
+}
+.input-area {
+ display: flex;
+ gap: 10px;
+ margin-bottom: 20px;
+}
+#taskInput {
+ flex-grow: 1;
+ padding: 10px;
+ border: 1px solid #ddd;
+ border-radius: 4px;
+ font-size: 16px;
+}
+#taskInput:focus {
+ outline: none;
+ border-color: #007bff;
+}
+#addTaskBtn {
+ padding: 10px 15px;
+ border: none;
+ background-color: #28a745;
+ color: white;
+ border-radius: 4px;
+ cursor: pointer;
+ font-size: 16px;
+ transition: background-color 0.2s;
+}
+#addTaskBtn:hover {
+ background-color: #218838;
+}
+ul {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
+li {
+ background: #f9f9f9;
+ padding: 12px 15px;
+ margin-bottom: 8px;
+ border-radius: 4px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ text-align: left;
+ transition: all 0.2s ease-in-out;
+}
+li.completed span {
+ text-decoration:line-through;
+ color: #040202;
+}
+li.completed {
+ background: #98c3a5;
+}
+.task-buttons button {
+ border: none;
+ padding: 6px 10px;
+ border-radius: 4px;
+ color: white;
+ cursor: pointer;
+ margin-left: 5px;
+ font-size: 12px;
+ transition: background-color 0.2s;
+}
+.done-btn {
+ background-color: #007bff;
+ 
+}
+.done-btn:hover {
+ background-color: #416751;
+ color:#ffffff;
+}
+.delete-btn {
+ background-color: #dc3545;
+ 
+}
+.delete-btn:hover {
+ background-color: #c10114;
+ color: #f3eded;
+}
